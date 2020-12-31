@@ -1,0 +1,119 @@
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+box-sizing: border-box;
+}
+
+body {
+    line-height; 1.5em;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5m;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+   }
+
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.25m;
+    text-align: center;
+   }
+
+h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    text-align: center;
+    line-height: normal;
+   }
+
+   p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    text-align: center;
+    line-height: normal;
+   }
+
+
+/* Layout Containers */
+
+
+
+.container {
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+.project {
+    width: 400px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.footer {
+    margin-top: 3em;
+}
+
+/* Nav Styles */
+
+
+main-header {
+    display: block;
+    background: white;
+    border-radius: .3em;
+
+    margin-bottom: 2em;
+    text-align:center;
+    font-family: 'Noto Sans JP', sans-serif;
+
+main-header a {
+        padding: 0.65em 1.25em;
+      }
+
+
+
+ul {
+    list-style-type: none;
+    margin: 25;
+    padding: 25;
+    overflow: auto;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+
+  }
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+    .project {
+        width: 100%;
+    ]}
+
+
+
+
+
+
+
+
+
+
+
+}
