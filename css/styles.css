@@ -111,6 +111,9 @@ ul li {
   Media Queries
 ==================================== */
 
+
+/* ======= Mobile ======= */
+
 @media (min-width: 320px) {
 
     .project {
@@ -119,21 +122,26 @@ ul li {
 
 
 
+/* ======= Tablet ======= */
 
-    @media (min-width: 768x) {
+
+    @media (min-width: 768px) {
 
         .project {
             width: 100%;
         }
     
+    }
+   
+
+    /* ======= Desktop ======= */
 
 
+    @media (min-width: 1024px) {
 
-
-
-
-
-
-
-
-}
+        .project {
+            width: 100%;
+        }
+    
+    }
+   
